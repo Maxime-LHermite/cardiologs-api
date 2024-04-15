@@ -1,0 +1,59 @@
+{
+    "compilerOptions": {
+        // Type check
+        "allowUnreachableCode": false,
+        "allowUnusedLabels": false,
+        "alwaysStrict": true,
+        "exactOptionalPropertyTypes": false,
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitAny": true,
+        "noImplicitOverride": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "noPropertyAccessFromIndexSignature": true,
+        "noUncheckedIndexedAccess": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "strict": true,
+        "strictBindCallApply": true,
+        "strictFunctionTypes": true,
+        "strictNullChecks": true,
+        "strictPropertyInitialization": true,
+        "useUnknownInCatchVariables": true,
+
+        // Modules
+        "allowArbitraryExtensions": false,
+        "allowImportingTsExtensions": false,
+        "allowUmdGlobalAccess": false,
+        "customConditions": [],
+        "moduleSuffixes": [""],
+        "noResolve": false,
+        "paths": {
+            "*": ["node_modules/*", "src/types/*"]
+        },
+        "resolveJsonModule": true,
+        "rootDir": "src",
+        "types": ["vite/client", "vitest"],
+
+        // Emit
+        "removeComments": true,
+
+        // JS
+        "allowJs": false,
+        "checkJs": true,
+
+        // Interop
+        "forceConsistentCasingInFileNames": true,
+        "isolatedModules": true,
+
+        "module": "commonjs",
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "target": "es6",
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "outDir": "dist",
+        "baseUrl": "./src"
+    },
+    "include": ["src/**/*"]
+}
